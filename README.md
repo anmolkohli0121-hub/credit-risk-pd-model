@@ -18,6 +18,7 @@ Build an end-to-end machine learning model to predict borrower default and suppo
 German credit dataset containing borrower demographics, financial behavior, and loan characteristics.
 
 🔹 Project Workflow
+
 ✔ Data cleaning and preprocessing
 Handling missing values
 Encoding categorical variables
@@ -49,14 +50,14 @@ Dashboard for credit monitoring
 Explainability (SHAP)
 Business decision framework
 
-🔹 Results (current)
+🔹 Results (current) - 
 ROC AUC: 0.80
 KS: 0.50
 
-🔹 Tools
+🔹 Tools - 
 Python | Pandas | Scikit-learn | SQL | Power BI | Excel
 
-🔹 Future Scope
+🔹 Future Scope - 
 Basel-compliant PD scorecard
 Portfolio risk segmentation
 
