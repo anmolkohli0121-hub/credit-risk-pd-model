@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+credit_risk/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large raw data (optional)
+data/raw/
