@@ -1,6 +1,12 @@
 # Credit Risk Probability of Default (PD) Model  
 ### German Credit Dataset
-
+## Key Highlights
+- End-to-end Probability of Default (PD) modeling pipeline  
+- Realistic banking use case aligned with Basel frameworks  
+- Strong model performance (ROC AUC: 0.80, KS: 0.50)  
+- Interpretable logistic regression baseline  
+- Business-oriented credit risk insights
+  
 ## Business Context
 Financial institutions use Probability of Default (PD) models to assess borrower risk, price loans, meet regulatory requirements, and optimize capital under Basel frameworks.
 
