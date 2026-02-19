@@ -1,67 +1,86 @@
-# credit-risk-pd-model
-Probability of default model using German credit data
-Credit Risk PD Model (Germany Dataset)
+# Credit Risk Probability of Default (PD) Model  
+### German Credit Dataset
 
-🔹 Business Context
-Banks such as Deutsche Bank and HSBC use probability of default (PD) models to:
-Assess borrower risk
-Price loans
-Meet regulatory requirements
-Optimize capital under Basel frameworks
+## Business Context
+Financial institutions use Probability of Default (PD) models to assess borrower risk, price loans, meet regulatory requirements, and optimize capital under Basel frameworks.
 
-This project simulates a real-world credit risk workflow.
+Banks such as Deutsche Bank and HSBC rely on similar models to support credit decision-making.
 
-🔹 Objective
-Build an end-to-end machine learning model to predict borrower default and support credit decision-making.
+This project simulates a real-world credit risk modeling workflow.
 
-🔹 Dataset
-German credit dataset containing borrower demographics, financial behavior, and loan characteristics.
+---
 
-🔹 Project Workflow
+## Objective
+Develop an end-to-end machine learning model to predict borrower default risk and support lending decisions.
 
-✔ Data cleaning and preprocessing
-Handling missing values
-Encoding categorical variables
-Feature scaling and transformations
+---
 
-✔ Exploratory data analysis
-Risk segmentation by age, income, and loan type
-Identification of high-risk borrower profiles
+## Dataset
+German Credit dataset containing borrower demographics, financial behavior, and loan characteristics.
 
-✔ Feature engineering
-Age bucketing
-Risk proxies
-Behavioral indicators
+---
 
-✔ Model development
-Logistic regression baseline
-Model interpretability
-Performance validation
+## Project Workflow
 
-✔ Model evaluation
-ROC AUC
-KS statistic
-Precision recall tradeoff
-Risk cutoff selection
+### Data Preparation
+- Data cleaning and preprocessing  
+- Handling missing values  
+- Encoding categorical variables  
+- Feature scaling and transformations  
 
-✔ Ongoing work
-Scorecard development
-Dashboard for credit monitoring
-Explainability (SHAP)
-Business decision framework
+### Exploratory Data Analysis
+- Risk segmentation by age, income, and loan type  
+- Identification of high-risk borrower profiles  
 
-🔹 Results (current) - 
-ROC AUC: 0.80
-KS: 0.50
+### Feature Engineering
+- Age bucketing  
+- Risk proxies  
+- Behavioral indicators  
 
-🔹 Tools - 
-Python | Pandas | Scikit-learn | SQL | Power BI | Excel
+### Model Development
+- Logistic regression baseline  
+- Model interpretability  
+- Performance validation  
 
-🔹 Future Scope - 
-Basel-compliant PD scorecard
-Portfolio risk segmentation
+### Model Evaluation
+- ROC AUC  
+- KS statistic  
+- Precision–recall tradeoff  
+- Risk cutoff selection  
 
-Note - Raw dataset not uploaded due to data privacy and governance considerations.
-Automated credit decision support
+---
 
-Deployment via Streamlit dashboard
+## Current Results
+- ROC AUC: **0.80**  
+- KS Statistic: **0.50**
+
+---
+
+## Tools & Technologies
+Python • Pandas • Scikit-learn • SQL • Power BI • Excel
+
+---
+
+## Ongoing Work
+- Scorecard development  
+- Dashboard for credit monitoring  
+- Model explainability (SHAP)  
+- Business decision framework  
+
+---
+
+## Future Scope
+- Basel-compliant PD scorecard  
+- Portfolio risk segmentation  
+- Automated credit decision support  
+- Deployment via Streamlit dashboard  
+
+---
+
+## Note on Data
+The raw dataset is not included due to data governance considerations.
+
+---
+
+## Author
+Anmol Kohli — Credit Risk & Analytics Enthusiast
