@@ -79,7 +79,25 @@ Python • Pandas • Scikit-learn • SQL • Power BI • Excel
 - Basel-compliant PD scorecard  
 - Portfolio risk segmentation  
 - Automated credit decision support  
-- Deployment via Streamlit dashboard  
+- Deployment via Streamlit dashboard
+
+  ## How to Run This Project
+
+1. Clone the repository:
+   git clone https://github.com/anmolkohli0121-hub/credit-risk-pd-model.git
+
+2. Navigate to the project folder:
+   cd credit-risk-pd-model
+
+3. Create and activate a virtual environment (recommended)
+
+4. Install required packages:
+   pip install -r requirements.txt
+
+5. Open Jupyter Notebook:
+   jupyter notebook
+
+6. Run the notebooks inside the `notebooks/` folder
 
 ---
 
